@@ -19,28 +19,28 @@ if (local) {
   dato = JSON.parse(local) as UserTypes[];
 }
 
-export const Userlist = () => {  
-
-
-
+export const Userlist = () => {
   const { data, isError, isLoading } = BaseapiGetuser.useGetuserQuery();
-  const [createCurso, { isLoading: postcgarnado }] =    BaseapiGetuser.usePostMutataticonMutation();
+  const [createCurso, { isLoading: postcgarnado }] =
+    BaseapiGetuser.usePostMutataticonMutation();
   const [Post, setPost] = useState(false);
   const [estado, setEstado] = useState<UserTypes>({} as UserTypes);
   const [form, setform] = useState("");
   const [Loclstorgeo, setlocalsotrae] = useState<UserTypes[]>(dato || []);
 
+  const filteruser = estado;
 
   const usehoverconvertring = (item: UserTypes) => {
     setPost(!Post);
-    let Offsetindex = Loclstorgeo.find((Res, index) => Res.email === item.email);
+    let Offsetindex = Loclstorgeo.find(
+      (Res, index) => Res.email === item.email
+    );
     if (!Offsetindex) {
       setlocalsotrae([...Loclstorgeo, item]);
     }
     setEstado(item);
   };
 
-  
   useEffect(() => {
     localStorage.setItem("Userlist", JSON.stringify(Loclstorgeo));
   }, [Loclstorgeo]);
@@ -53,7 +53,6 @@ export const Userlist = () => {
     setform(vari);
   };
 
-  
   const filtror = data?.filter((item, index) =>
     item.email.toLocaleLowerCase().includes(form)
   );
@@ -77,7 +76,6 @@ export const Userlist = () => {
       >
         Back
       </button>
-
       <Inputbusquedad PadreDetails={PadreDetails}></Inputbusquedad>
 
       {!Post ? (
@@ -95,13 +93,12 @@ export const Userlist = () => {
         
                 rounded-md border-gray-200 text-gray-700 hover:bg-blue-700 hover:text-white hover:border-blue-300  translate-px duration-300 cursor-pointer"
                   key={index}
-                > 
-                <h1>{item.id}</h1>
+                >
+                  <h1>{item.id}</h1>
                   <h1>{item.dni}</h1>
                   <h1>{item.nombre}</h1>
                   <h1>{item.email}</h1>
                 </div>
-
               );
             })
           )}
