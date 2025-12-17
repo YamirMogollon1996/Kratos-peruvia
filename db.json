@@ -1,0 +1,97 @@
+{
+  "usuarios": [
+    { "id": 1, "dni": "70123456", "nombre": "Carlos Pérez", "edad": 28, "email": "carlos.perez@example.com" },
+    { "id": 2, "dni": "71234567", "nombre": "Ana Torres", "edad": 22, "email": "ana.torres@example.com" },
+    { "id": 3, "dni": "72345678", "nombre": "Luis Ramírez", "edad": 31, "email": "luis.ramirez@example.com" },
+    { "id": 4, "dni": "73456789", "nombre": "María López", "edad": 26, "email": "maria.lopez@example.com" },
+    { "id": 5, "dni": "74567890", "nombre": "Jorge Castillo", "edad": 35, "email": "jorge.castillo@example.com" },
+    { "id": 6, "dni": "75678901", "nombre": "Lucía Fernández", "edad": 24, "email": "lucia.fernandez@example.com" },
+    { "id": 7, "dni": "76789012", "nombre": "Pedro Salazar", "edad": 29, "email": "pedro.salazar@example.com" },
+    { "id": 8, "dni": "77890123", "nombre": "Rosa Gutiérrez", "edad": 27, "email": "rosa.gutierrez@example.com" },
+    { "id": 9, "dni": "78901234", "nombre": "Diego Vargas", "edad": 33, "email": "diego.vargas@example.com" },
+    { "id": 10, "dni": "79012345", "nombre": "Elena Ríos", "edad": 21, "email": "elena.rios@example.com" }
+  ],
+
+  "informacion": [
+    {
+      "id": 1,
+      "usuarioId": 1,
+      "ocupacion": "Ingeniero de software",
+      "direccion": "Av. Los Álamos 123",
+      "telefono": "987654321",
+      "descripcion": "Carlos es un desarrollador con experiencia en sistemas web."
+    },
+    {
+      "id": 2,
+      "usuarioId": 2,
+      "ocupacion": "Estudiante universitaria",
+      "direccion": "Jr. Las Flores 456",
+      "telefono": "912345678",
+      "descripcion": "Ana está estudiando educación y le gusta la tecnología."
+    },
+    {
+      "id": 3,
+      "usuarioId": 3,
+      "ocupacion": "Administrador",
+      "direccion": "Calle Central 789",
+      "telefono": "934567890",
+      "descripcion": "Luis trabaja en gestión de recursos humanos."
+    },
+    {
+      "id": 4,
+      "usuarioId": 4,
+      "ocupacion": "Diseñadora gráfica",
+      "direccion": "Av. Primavera 321",
+      "telefono": "945678901",
+      "descripcion": "María se especializa en diseño digital y branding."
+    },
+    {
+      "id": 5,
+      "usuarioId": 5,
+      "ocupacion": "Contador",
+      "direccion": "Jr. Libertad 654",
+      "telefono": "956789012",
+      "descripcion": "Jorge tiene experiencia en auditoría y finanzas."
+    },
+    {
+      "id": 6,
+      "usuarioId": 6,
+      "ocupacion": "Enfermera",
+      "direccion": "Av. Perú 987",
+      "telefono": "967890123",
+      "descripcion": "Lucía trabaja en un centro de salud local."
+    },
+    {
+      "id": 7,
+      "usuarioId": 7,
+      "ocupacion": "Chef",
+      "direccion": "Calle Sabor 159",
+      "telefono": "978901234",
+      "descripcion": "Pedro es chef especializado en comida peruana."
+    },
+    {
+      "id": 8,
+      "usuarioId": 8,
+      "ocupacion": "Docente",
+      "direccion": "Av. Educación 753",
+      "telefono": "989012345",
+      "descripcion": "Rosa enseña comunicación en secundaria."
+    },
+    {
+      "id": 9,
+      "usuarioId": 9,
+      "ocupacion": "Fotógrafo",
+      "direccion": "Jr. Arte 852",
+      "telefono": "990123456",
+      "descripcion": "Diego trabaja en fotografía de eventos."
+    },
+    {
+      "id": 10,
+      "usuarioId": 10,
+      "ocupacion": "Estudiante de diseño",
+      "direccion": "Calle Creativa 951",
+      "telefono": "901234567",
+      "descripcion": "Elena está estudiando diseño gráfico y animación."
+    }
+  ]
+}
