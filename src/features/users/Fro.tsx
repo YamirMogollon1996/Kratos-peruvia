@@ -37,7 +37,7 @@ const Fro = () => {
                 {item.numero}
               </h1>
               <h1 className="confiifckdeveloper"   >{item.email}</h1>
-              <h1   className="text-5xl bg-gray-200 italic  " >{item.email}</h1>
+              <h1   className="text-5xl bg-gray-200 italic  brandi lover" >{item.email}</h1>
               <h1  className="bg-amber-400   flex items-center saturate-150  sonia gird grid-cols-3" >{item.id}</h1>
             </div>
           );
