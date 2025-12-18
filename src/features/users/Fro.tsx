@@ -22,13 +22,16 @@ const detalle = [
     email: "senior@gamial.com",
   },
 ];
-const Fro = () => {
+const Fro = () => {  
+
+  const detallefilter =   detalle.filter((item , index)  => item.numero > 20)  
+
   return (
     <>
       <div>Fro</div>
 
       <div>
-        {detalle.map((item, index) => {
+        {detallefilter.map((item, index) => {
           return (
             <div>
               <h1
