@@ -22,9 +22,8 @@ const detalle = [
     email: "senior@gamial.com",
   },
 ];
-const Fro = () => {  
-
-  const detallefilter =   detalle.filter((item , index)  => item.numero > 20)  
+const Fro = () => {
+  const detallefilter = detalle.filter((item, index) => item.numero > 40);
 
   return (
     <>
