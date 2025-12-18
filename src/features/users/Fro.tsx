@@ -38,7 +38,7 @@ const Fro = () => {
               >
                 {item.numero}
               </h1>
-              <h1>{item.email}</h1>
+              <h1   className="text-5xl bg-gray-200 " >{item.email}</h1>
               <h1>{item.id}</h1>
             </div>
           );
