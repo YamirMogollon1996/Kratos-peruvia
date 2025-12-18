@@ -1,5 +1,4 @@
 import React from "react";
-
 const detalle = [
   {
     id: 1,
@@ -23,12 +22,11 @@ const detalle = [
   },
 ];
 const Fro = () => {
-  const detallefilter = detalle.filter((item, index) => item.numero > 40);
 
+  const detallefilter = detalle.filter((item, index) => item.numero > 40);
   return (
     <>
       <div>Fro</div>
-
       <div>
         {detallefilter.map((item, index) => {
           return (
