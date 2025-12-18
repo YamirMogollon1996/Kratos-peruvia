@@ -5,23 +5,22 @@ const detalle = [
     id: 1,
     numero: 10,
     email: "senior@gamial.com",
-  },  
-   {
+  },
+  {
     id: 1,
     numero: 10,
     email: "senior@gamial.com",
   },
-   {
+  {
     id: 1,
     numero: 10,
     email: "senior@gamial.com",
   },
-   {
+  {
     id: 1,
     numero: 10,
     email: "senior@gamial.com",
   },
-  
 ];
 const Fro = () => {
   return (
@@ -32,7 +31,11 @@ const Fro = () => {
         {detalle.map((item, index) => {
           return (
             <div>
-              <h1>{item.numero}</h1>
+              <h1
+                className={`${index === 0 ? "bg-amber-100" : "bg-amber-300"} `}
+              >
+                {item.numero}
+              </h1>
               <h1>{item.email}</h1>
               <h1>{item.id}</h1>
             </div>
