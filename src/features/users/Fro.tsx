@@ -5,7 +5,23 @@ const detalle = [
     id: 1,
     numero: 10,
     email: "senior@gamial.com",
+  },  
+   {
+    id: 1,
+    numero: 10,
+    email: "senior@gamial.com",
   },
+   {
+    id: 1,
+    numero: 10,
+    email: "senior@gamial.com",
+  },
+   {
+    id: 1,
+    numero: 10,
+    email: "senior@gamial.com",
+  },
+  
 ];
 const Fro = () => {
   return (
