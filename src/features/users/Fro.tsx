@@ -23,13 +23,10 @@ const detalle = [
 ];
 const Fro = () => {
 
-<<<<<<< HEAD
 
   const detallefilter = detalle.filter((item, index) => item.numero > 40); 
-  const filterdos =  detalle.filter((item , index) => item.id === 24)
-=======
-  const detallefilter = detalle.filter((item, index) => item.numero > 40);
->>>>>>> parent of 9d1915b (comic en la casa)
+  const filterdos =  detalle.filter((item , index) => item.id === 24)   
+  const funcionaliddnueba =  detalle.map((item , index) => item.email === 'mogollonosorio@yamir.com') 
   return (
     <>
       <div>Fro</div>
