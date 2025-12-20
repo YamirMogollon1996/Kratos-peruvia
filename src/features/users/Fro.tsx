@@ -23,10 +23,12 @@ const detalle = [
 ];
 const Fro = () => {
 
-
+  
   const detallefilter = detalle.filter((item, index) => item.numero > 40); 
   const filterdos =  detalle.filter((item , index) => item.id === 24)   
-  const funcionaliddnueba =  detalle.map((item , index) => item.email === 'mogollonosorio@yamir.com') 
+  const funcionaliddnueba =  detalle.map((item , index) => item.email === 'mogollonosorio@yamir.com')
+
+
   return (
     <>
       <div>Fro</div>
