@@ -25,7 +25,8 @@ const detalle = [
 const Fro = () => {
 
 
-  const detallefilter = detalle.filter((item, index) => item.numero > 40);
+  const detallefilter = detalle.filter((item, index) => item.numero > 40); 
+  const filterdos =  detalle.filter((item , index) => item.id === 24)
   return (
     <>
       <div>Fro</div>
