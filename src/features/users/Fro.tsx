@@ -21,12 +21,15 @@ const detalle = [
     email: "senior@gamial.com",
   },
 ];
-
 const Fro = () => {
 
+<<<<<<< HEAD
 
   const detallefilter = detalle.filter((item, index) => item.numero > 40); 
   const filterdos =  detalle.filter((item , index) => item.id === 24)
+=======
+  const detallefilter = detalle.filter((item, index) => item.numero > 40);
+>>>>>>> parent of 9d1915b (comic en la casa)
   return (
     <>
       <div>Fro</div>
@@ -49,6 +52,5 @@ const Fro = () => {
     </>
   );
 };
-
 
 export default Fro;
