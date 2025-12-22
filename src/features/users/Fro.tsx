@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 const detalle = [
   {
     id: 1,
@@ -23,10 +23,13 @@ const detalle = [
 ];
 const Fro = () => {
 
+  const [estado , setestado]  =  useState('mogollonosorioyamir@gmail.com')
   
   const detallefilter = detalle.filter((item, index) => item.numero > 40); 
   const filterdos =  detalle.filter((item , index) => item.id === 24)   
-  const funcionaliddnueba =  detalle.map((item , index) => item.email === 'mogollonosorio@yamir.com')
+  const funcionaliddnueba =  detalle.map((item , index) => item.email === 'mogollonosorio@yamir.com') 
+
+  const funcionalidadit    =   detalle.map((item , index) => item.email  ===  estado )
 
 
   return (

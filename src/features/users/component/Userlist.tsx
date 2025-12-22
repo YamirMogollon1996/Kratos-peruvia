@@ -72,7 +72,7 @@ export const Userlist = () => {
     <>
       <button
         onClick={() => setPost(!Post)}
-        className="p-2 bg-black text-white rounded-md  p-2 m-2 cursor-pointer"
+        className=" bg-black text-white rounded-md  p-2 m-2 cursor-pointer"
       >
         Back
       </button>
