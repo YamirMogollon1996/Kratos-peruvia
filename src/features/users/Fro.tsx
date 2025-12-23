@@ -25,7 +25,8 @@ const detalle = [
 ];
 
 const Fro = () => {
-  
+
+
   const [estado, setestado] = useState("mogollonosorioyamir@gmail.com");
   const detallefilter = detalle.filter((item, index) => item.numero > 40);
   const filterdos = detalle.filter((item, index) => item.id === 24);
@@ -34,7 +35,9 @@ const Fro = () => {
   const   {Chanugelement ,ExportJugaite}  =  userCraeteuser()
 
 
+   
 
+             
   return (
     <>
     {

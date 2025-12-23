@@ -1,7 +1,8 @@
 import React from "react";
 
 
-// confirmguarion and developers
+// confirmguarion and developers   
+// estoner Loyer -- developer    
 interface RetornarElement {
   Chanugelement: (e: React.ChangeEvent<HTMLInputElement>) => void;
   ExportJugaite: () => void;
