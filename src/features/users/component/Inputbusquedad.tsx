@@ -1,24 +1,29 @@
 import React, { useEffect, useState } from "react";
 import { CiWifiOn } from "react-icons/ci";
 
+
 interface FronteBails {
   PadreDetails: (item: string) => void;
 }
-
 const Inputbusquedad = ({ PadreDetails }: FronteBails) => {
+  
+  
   const [element, setlemeto] = useState("");
   const handleChanugue = (e: React.ChangeEvent<HTMLInputElement>) => {
     PadreDetails(e.target.value);
   };
+
 
   const Formevente = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log(element);
   };
 
+
   useEffect(() => {
     console.log("mogollon_osorio_devloepelper");
   }, []);
+
 
   return (
     <>
