@@ -1,6 +1,7 @@
 import React from "react";
 
-// confirmguarion and developers 
+
+// confirmguarion and developers
 interface RetornarElement {
   Chanugelement: (e: React.ChangeEvent<HTMLInputElement>) => void;
   ExportJugaite: () => void;
@@ -9,8 +10,7 @@ interface RetornarElement {
 const userCraeteuser = (): RetornarElement => {
   const Chanugelement = (e: React.ChangeEvent<HTMLInputElement>) => {
     console.log(e.target.value);
-  };  
-
+  };
   const ExportJugaite = () => {
     console.log("Exporter juegue");
   };
