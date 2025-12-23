@@ -5,9 +5,7 @@ interface FronteBails {
   PadreDetails: (item: string) => void;
 }
 
-const Inputbusquedad = ({ PadreDetails }: FronteBails) => {  
-
-
+const Inputbusquedad = ({ PadreDetails }: FronteBails) => {
   const [element, setlemeto] = useState("");
   const handleChanugue = (e: React.ChangeEvent<HTMLInputElement>) => {
     PadreDetails(e.target.value);
@@ -17,12 +15,10 @@ const Inputbusquedad = ({ PadreDetails }: FronteBails) => {
     e.preventDefault();
     console.log(element);
   };
- 
 
-  useEffect(()=>{
-         console.log('mogollon_osorio_devloepelper')
-  },  [])
-
+  useEffect(() => {
+    console.log("mogollon_osorio_devloepelper");
+  }, []);
 
   return (
     <>
